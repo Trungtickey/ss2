@@ -1,0 +1,117 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup label {
+    margin-bottom: 5px;
+  }
+  
+  .inputGroup input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  
+  .passwordHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .forgotPassword {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .passwordInput {
+    position: relative;
+  }
+  
+  .eyeIcon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .errorMessage {
+    color: #FF0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .continueButton {
+    background-color: #4CAF50;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .orSignUp {
+    text-align: center;
+    margin: 20px 0;
+    color: black;
+  }
+  
+  .socialButtons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .socialButton {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  .socialButton img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .signUpLink {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signUpLink a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
